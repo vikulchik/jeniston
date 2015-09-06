@@ -1,7 +1,14 @@
-a {
-  font-family: Arial;
-  font-style: italic;
-  font-size: 14px;
-  line-height: 18px;
-  font-weight: bold;
+.header {
+  background-color: #000000;
+  &__logo {
+    float: left;
+    margin-left: 20px;
+
+  }
+  &__name {
+    color: #ffffff;
+    font-size: 40px;
+    font-weight: normal;
+  }
 }
+

@@ -554,12 +554,17 @@ th {
   padding: 0;
 }
 
-a {
-  font-family: Arial;
-  font-style: italic;
-  font-size: 14px;
-  line-height: 18px;
-  font-weight: bold;
+.header {
+  background-color: #000000;
+}
+.header__logo {
+  float: left;
+  margin-left: 20px;
+}
+.header__name {
+  color: #ffffff;
+  font-size: 40px;
+  font-weight: normal;
 }
 
 /*.wrapper {
