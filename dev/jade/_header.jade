@@ -1,1 +1,9 @@
 header.header
+    .header__logo
+        h1.header__name Logo
+    .header__navigation
+        nav.header__nav
+            ul.header__list
+                each item in ['Home', 'Rubric', 'Login']
+                    li.header__item
+                        a(href="#").header__link=item
