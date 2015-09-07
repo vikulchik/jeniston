@@ -1,10 +1,9 @@
 header.header
-    .clearfix
     .header__logo
-        h1.header__name Logo
+        a(href="#").header__name Logo
     .header__navigation
         nav.header__nav
             ul.header__list
-                each item in ['Home', 'Rubric', 'Login']
+                each item in ['Главная', 'Рубрикация', 'Популярное', 'Войти']
                     li.header__item
                         a(href="#").header__link=item

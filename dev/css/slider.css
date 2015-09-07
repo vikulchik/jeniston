@@ -1,0 +1,24 @@
+.slider {
+  background-color: #000000;
+  text-align: center;
+  padding: 20px;
+}
+.slider__title {
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: bold;
+  display: block;
+  margin-bottom: 20px;
+}
+.slider .main-slider {
+  margin-bottom: 20px;
+}
+.slider .main-slider__item {
+  display: inline-block;
+  margin-left: 45px;
+}
+.slider .main-slider__item:first-child {
+  margin-left: 0;
+}
+
+/*# sourceMappingURL=slider.css.map */

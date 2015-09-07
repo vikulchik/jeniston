@@ -1,14 +1,59 @@
 .header {
   background-color: #000000;
+  padding: 20px;
+  position: relative;
+  min-height: 40px;
+  text-align: center;
+  border-bottom: 2px solid #F29B70;
+  &:after {
+    background: url("../img/ribbon.png") no-repeat right center;
+    content: '';
+    position: absolute;
+    top: -43px;
+    right: 50px;
+    width: 255px;
+    height: 165px;
+    background-size: 46%;
+  }
   &__logo {
-    float: left;
+    position: absolute;
     margin-left: 20px;
-
   }
   &__name {
     color: #ffffff;
     font-size: 40px;
     font-weight: normal;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: inline-block;
+    &:hover {
+      transform: scale(1.1);
+      transition: 0.3s;
+      color: #cc0000;
+    }
+  }
+  &__navigation {
+    margin-top: 10px;
+  }
+  &__list {
+    display: inline-block;
+  }
+  &__item {
+    display: inline-block;
+    margin-left: 40px;
+    &:first-child {
+      margin-left: 0;
+    }
+  }
+  &__link {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    &:hover {
+      color: #cc0000;
+      transition: 0.3s;
+    }
   }
 }
 

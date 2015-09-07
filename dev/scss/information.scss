@@ -1,0 +1,17 @@
+.information {
+  background: url("../img/img.jpg") no-repeat 0 0;
+  min-height: 1080px;
+  position: relative;
+  &__text {
+    width: 50%;
+    line-height: 1.5;
+    color: #16404A;
+    font-size: 23px;
+    position: absolute;
+    top: 290px;
+    left: 35px;
+    span {
+      font-weight: bold;
+    }
+  }
+}

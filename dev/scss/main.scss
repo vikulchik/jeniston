@@ -1,20 +1,23 @@
 @import "mixins";
-@import "normalize";
+@import "compass/reset";
 
 @import "header";
-
+@import "slogan";
+@import "slider";
+@import "information";
+@import "content";
 @import "footer";
+@import "pop-up";
 
 
 
 
-/*.wrapper {
-  display: none;
-}*/
-
-
-/*
-.pop-up {
-  display: none;
+.wrapper {
+  font-family: arial, sans-serif;
+  max-width: 1920px;
 }
-*/
+html, body {
+  height: 100%;
+}
+
+

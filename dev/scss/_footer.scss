@@ -1,3 +1,41 @@
 .footer {
-
+  min-height: 100px;
+  background-color: #000000;
+  border-top: 2px solid #F29B70;
+  position: relative;
+  text-align: center;
+  &:after {
+    background: url("../img/ribbon.png") no-repeat right center;
+    content: '';
+    position: absolute;
+    top: -43px;
+    right: 50px;
+    width: 255px;
+    height: 165px;
+    background-size: 46%;
+  }
+  &__logo {
+    position: absolute;
+    margin-left: 20px;
+    top: 30px;
+  }
+  &__name {
+    color: #ffffff;
+    font-size: 40px;
+    font-weight: normal;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: inline-block;
+    &:hover {
+      transform: scale(1.1);
+      transition: 0.3s;
+      color: #cc0000;
+    }
+  }
+  &__title {
+    color: #ffffff;
+    font-size: 18px;
+    margin-top: 45px;
+    display: block;
+  }
 }
